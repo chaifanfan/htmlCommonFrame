@@ -1,6 +1,8 @@
 .widget-feature {
 	background-color: $white;
-	height: auto !important;
+	.global-width {
+		padding-bottom: 0;
+	}
 	.feature-wrapper {
 		display: flex;
 		margin-bottom: $gap*4;

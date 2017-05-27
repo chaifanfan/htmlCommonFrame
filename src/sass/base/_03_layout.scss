@@ -13,7 +13,6 @@
 ------------------------------------------------------------------------------------------------*/
 
 .header {
-	background-color: $darkest;
 	box-sizing: border-box;
 	color: $white;
 	height: $base-unit*9;
@@ -21,12 +20,14 @@
 	position: fixed;
 	right: 0;
 	top: 0;
+	transition: all .7s ease-in-out;
 	z-index: $header-z-index;
 	.global-width {
 		align-items: center;
 		display: flex;
 		height: 100%;
 		justify-content: space-between;
+		max-width: none;
 	}
 	.logo {
 		height: $base-unit*2.75;
@@ -70,7 +71,7 @@
 			transition: margin .2s;
 			a {
 				box-sizing: border-box;
-				color: inherit;
+				color: $white;
 				display: block;
 				line-height: $base-unit*2.5;
 				margin: 0 auto;
@@ -96,6 +97,9 @@
 			height: $base-unit*3;
 			width: $base-unit*3;
 		}
+	}
+	.scrolling & {
+		background-color: $darkest;
 	}
 	@include media($phone) {
 		height: $base-unit*6;
@@ -137,11 +141,10 @@
 ------------------------------------------------------------------------------------------------*/
 
 .main {
-	background: url('http://unsplash.it/1920/1920?image=848') no-repeat center;
+	background: url('images/bg.jpg') no-repeat center;
 	background-attachment: fixed;
 	background-size: cover;
 	.widget {
-		height: 500px;
 		padding: 0 $gap;
 	}
 	.widget:nth-child(2n) {
@@ -160,7 +163,7 @@
 		}
 	}
 	.global-width {
-		padding: $base-unit*8 0 0;
+		padding: $base-unit*8 0;
 	}
 	@include media($phone-plus) {
 		background-attachment: scroll;
