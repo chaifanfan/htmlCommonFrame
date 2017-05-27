@@ -1,0 +1,40 @@
+.widget-download {
+	background-color: $white-dark;
+	height: auto !important;
+	.download-wrapper {
+		align-items: center;
+		display: flex;
+		justify-content: center;
+		.global-width {
+			max-width: $rem-unit*4.2;
+			padding: $base-unit*3 0;
+			@include media($noDesktop) {
+				max-width: none;
+			}
+		}
+	}
+	p {
+		font-size: $base-unit*2;
+		margin: 0;
+	}
+	h1 {
+		font-size: $base-unit*3.75;
+		letter-spacing: 0;
+		margin: $base-unit 0 $base-unit*2;
+	}
+	.btn {
+		font-size: $base-unit*2;
+		margin-bottom: $gap*2;
+		&:hover {
+			background-color: $orange-light;
+			border-color: $orange-light;
+		}
+	}
+	.video-wrapper {
+		font-size: 0;
+		padding: 0;
+	}
+	&:after {
+		display: none;
+	}
+}

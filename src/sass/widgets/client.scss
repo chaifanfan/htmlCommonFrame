@@ -1,0 +1,20 @@
+.widget-client {
+	background-color: $white-light;
+	height: auto !important;
+	&:after {
+		display: none;
+	}
+	img {
+		display: block;
+		filter: grayscale(1);
+		margin: 0 auto;
+		max-width: 200px;
+		width: 100%;
+	}
+	.row {
+		justify-content: center;
+	}
+	.global-width {
+		padding-bottom: $gap*4;
+	}
+}

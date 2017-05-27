@@ -1,0 +1,111 @@
+/* Segoe UI
+---------------------------------------------------------*/
+
+@font-face {
+	font-family: 'SegoeUI';
+	font-style: normal;
+	font-weight: 300;
+	src: local('Segoe UI Light'), local('SegoeUI-Light');
+}
+@font-face {
+	font-family: 'SegoeUI';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Segoe UI'), local('SegoeUI');
+}
+@font-face {
+	font-family: 'SegoeUI';
+	font-style: normal;
+	font-weight: 600;
+	src: local('Segoe UI Semibold'), local('SegoeUI-Semibold');
+}
+@font-face {
+	font-family: 'SegoeUI';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Segoe UI Bold'), local('SegoeUI-bold'), local('segoeuib');
+}
+@font-face {
+	font-family: 'SegoeUI';
+	font-style: normal;
+	font-weight: 800;
+	src: local('Segoe UI Black'), local('SegoeUI-black'), local('segoeuibl');
+}
+
+/* Open Sans
+---------------------------------------------------------*/
+
+@font-face {
+	font-family: 'OpenSans';
+	font-style: normal;
+	font-weight: 300;
+	src: url("fonts/opensans-light-webfont.eot");
+	src: url("fonts/opensans-light-webfont.eot?#iefix") format('embedded-opentype'), url("fonts/opensans-light-webfont.woff") format('woff'), url("fonts/opensans-light-webfont.ttf") format('truetype'), url("fonts/opensans-light-webfont.svg#OpenSans") format('svg');
+}
+@font-face {
+	font-family: 'OpenSans';
+	font-style: normal;
+	font-weight: 400;
+	src: url("fonts/opensans-regular-webfont.eot");
+	src: url("fonts/opensans-regular-webfont.eot?#iefix") format('embedded-opentype'), url("fonts/opensans-regular-webfont.woff") format('woff'), url("fonts/opensans-Regular-webfont.ttf") format('truetype'), url("fonts/opensans-regular-webfont.svg#OpenSans") format('svg');
+}
+@font-face {
+	font-family: 'OpenSans';
+	font-style: normal;
+	font-weight: 600;
+	src: url("fonts/opensans-semibold-webfont.eot");
+	src: url("fonts/opensans-semibold-webfont.eot?#iefix") format('embedded-opentype'), url("fonts/opensans-semibold-webfont.woff") format('woff'), url("fonts/opensans-semibold-webfont.ttf") format('truetype'), url("fonts/opensans-semibold-webfont.svg#OpenSans") format('svg');
+}
+@font-face {
+	font-family: 'OpenSans';
+	font-style: normal;
+	font-weight: 700;
+	src: url("fonts/opensans-bold-webfont.eot");
+	src: url("fonts/opensans-bold-webfont.eot?#iefix") format('embedded-opentype'), url("fonts/opensans-bold-webfont.woff") format('woff'), url("fonts/opensans-bold-webfont.ttf") format('truetype'), url("fonts/opensans-bold-webfont.svg#OpenSans") format('svg');
+}
+@font-face {
+	font-family: 'OpenSans';
+	font-style: normal;
+	font-weight: 800;
+	src: url("fonts/opensans-extrabold-webfont.eot");
+	src: url("fonts/opensans-extrabold-webfont.eot?#iefix") format('embedded-opentype'), url("fonts/opensans-extrabold-webfont.woff") format('woff'), url("fonts/opensans-extrabold-webfont.ttf") format('truetype'), url("fonts/opensans-extrabold-webfont.svg#OpenSans") format('svg');
+}
+
+/* Montserrat
+---------------------------------------------------------*/
+
+// @font-face {
+//     font-family: 'montserrat';
+//     font-weight: 300;
+//     font-style: normal;
+//     src: url('fonts/montserrat-light-webfont.eot');
+//     src: url('fonts/montserrat-light-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/montserrat-light-webfont.woff') format('woff'), url('fonts/montserrat-light-webfont.ttf') format('truetype'), url('fonts/montserrat-light-webfont.svg#montserrat') format('svg');
+// }
+// @font-face {
+//     font-family: 'montserrat';
+//     font-weight: 400;
+//     font-style: normal;
+//     src: url('fonts/montserrat-regular-webfont.eot');
+//     src: url('fonts/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/montserrat-regular-webfont.woff') format('woff'), url('fonts/montserrat-regular-webfont.ttf') format('truetype'), url('fonts/montserrat-regular-webfont.svg#montserrat') format('svg');
+// }
+// @font-face {
+//     font-family: 'montserrat';
+//     font-weight: 600;
+//     font-style: normal;
+//     src: url('fonts/montserrat-semibold-webfont.eot');
+//     src: url('fonts/montserrat-semibold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/montserrat-semibold-webfont.woff') format('woff'), url('fonts/montserrat-semibold-webfont.ttf') format('truetype'), url('fonts/montserrat-semibold-webfont.svg#montserrat') format('svg');
+// }
+// @font-face {
+//     font-family: 'montserrat';
+//     font-weight: 700;
+//     font-style: normal;
+//     src: url('fonts/montserrat-bold-webfont.eot');
+//     src: url('fonts/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/montserrat-bold-webfont.woff') format('woff'), url('fonts/montserrat-bold-webfont.ttf') format('truetype'), url('fonts/montserrat-bold-webfont.svg#montserrat') format('svg');
+// }
+// @font-face {
+//     font-family: 'montserrat';
+//     font-weight: 800;
+//     font-style: normal;
+//     src: url('fonts/montserrat-extrabold-webfont.eot');
+//     src: url('fonts/montserrat-extrabold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/montserrat-extrabold-webfont.woff') format('woff'), url('fonts/montserrat-extrabold-webfont.ttf') format('truetype'), url('fonts/montserrat-extrabold-webfont.svg#montserrat') format('svg');
+// }

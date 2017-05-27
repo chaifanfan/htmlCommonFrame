@@ -1,0 +1,48 @@
+.btn {
+	background-color: $orange-dark;
+    border: .01rem solid $orange-dark;
+	color: $white;
+    cursor: pointer;
+	display: inline-block;
+	letter-spacing: 2px;
+	line-height: $base-unit*2.75;
+	padding: $base-unit*.75 $base-unit*5;
+	text-decoration: none;
+	transition: color .6s ease-out, background-color .2s ease-in-out, border-color .2s ease-in-out;
+}
+.btn-short {
+	padding-left: $base-unit*2.5;
+	padding-right: $base-unit*2.5;
+}
+.btn-line {
+    background-color: transparent;
+    color: $orange-dark;
+    &:hover {
+    	background-color: $orange-dark;
+        color: $white;
+    }
+}
+.btn-white {
+	border-color: $white;
+	color: $white;
+    &:hover {
+    	background-color: transparent;
+    }
+}
+.btn-radius {
+	border-radius: $base-unit*.5;
+}
+.btn-group {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	.btn {
+		margin: 0 $base-unit*1.25;
+		&:first-child {
+			margin-left: 0;
+		}
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}

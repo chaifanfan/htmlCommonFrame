@@ -1,0 +1,31 @@
+单页 导航定点滚动（logo 导航项 搜索？ 登录注册）
+
+1 大标题 简介（特点 适用人群）
+  创建网站按钮（在线使用）
+  //video and document button
+
+2 Feature - *个理由
+
+3 Download - 本地版的好处（下载按钮）video?
+
+4 Template - 可以使用的例子（应用按钮）
+
+5 Client - 谁在使用（已有客户群）
+
+
+https://www.lyft.com/
+https://slack.com/downloads/windows
+https://www.sixtyseven.com/
+https://www.apple.com/
+http://shapebootstrap.net/item/1524944-egret-html5-landing-page/live-demo
+https://envato.com/#products
+
+
+Q:
+视频的截图
+底部内容及样式
+中英文字体 字体在行高中的位置和开始的位置
+导航位置 颜色 hover颜色
+
+
+windows mac

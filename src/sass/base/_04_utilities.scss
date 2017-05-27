@@ -1,0 +1,69 @@
+/* Helper classes
+========================================================================== */
+
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.clear {
+	clear: both;
+}
+.text-center {
+	text-align: center !important;
+}
+.text-left {
+	text-align: left !important;
+}
+.text-right {
+	text-align: right !important;
+}
+.text-orange {
+	color: $orange-dark !important;
+}
+.text-blue {
+	color: $blue !important;
+}
+.hidden {
+	display: none;
+}
+.invisible {
+	visibility: hidden !important;
+}
+.clearfix {
+	@include clearfix();
+}
+.show-mobile {
+	@include media($tablet) {
+		display: none !important;
+	}
+}
+.hide-mobile {
+	@include media($phone) {
+		display: none !important;
+	}
+}
+.show-tablet {
+	@include media($desktop) {
+		display: none !important;
+	}
+	@include media($phone) {
+		display: none !important;
+	}
+}
+.hide-tablet {
+	@include media($tablet, $noDesktop) {
+		display: none !important;
+	}
+}
+.show-desktop {
+	@include media($noDesktop) {
+		display: none !important;
+	}
+}
+.hide-desktop {
+	@include media($desktop) {
+		display: none!important;
+	}
+}

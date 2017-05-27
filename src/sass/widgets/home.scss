@@ -1,0 +1,73 @@
+.widget-home {
+    height: auto !important;
+    padding-top: $base-unit*9 !important;
+    position: relative;
+    &:after {
+        background-color: $dark;
+        content: '';
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+    .global-width {
+        color: $white;
+        padding: 9% 0;
+        position: relative;
+        z-index: 1;
+    }
+    h1 {
+        font-size: $base-font-size*5;
+        font-weight: 700;
+        letter-spacing: -($base-unit*.5);
+        line-height: $base-font-size*5;
+        margin: 0;
+        @include media($phone) {
+            font-size: $base-unit*6;
+            letter-spacing: -($base-unit*.25);
+            line-height: $base-unit*6;
+        }
+    }
+    p {
+        font-size: $base-unit*2;
+        margin: $base-unit*5 0;
+    }
+    .btn-group {
+        justify-content: flex-start;
+        .btn {
+            letter-spacing: 0;
+        }
+        .icon {
+            margin-left: $base-unit*1.25;
+            position: relative;
+            vertical-align: sub;
+        }
+        .btn:nth-child(1) {
+        	border-color: rgba(255,109,77,.7);
+        	transition: all .2s;
+        	&:hover {
+        		border-color: rgba(255,109,77,1);
+        	}
+        }
+        .btn:nth-child(1):hover .icon {
+        	/* animation: zoom 0.25s 2 linear alternate;*/
+        }
+        .btn:nth-child(2):hover .icon {
+        	animation: vertical 0.75s 2 linear alternate;
+        }
+        .btn:nth-child(3):hover .icon {
+        	animation: zoom 0.25s 2 linear alternate;
+        }
+        @include media($phone) {
+            flex-direction: column;
+            .btn {
+                margin: $gap 0;
+            }
+        }
+    }
+    @include media($phone) {
+        padding-top: $base-unit*6 !important;
+        text-align: center;
+    }
+}

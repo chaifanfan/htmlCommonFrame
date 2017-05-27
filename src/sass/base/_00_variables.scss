@@ -1,0 +1,78 @@
+/* Normalize
+-------------------------------------------------------------- */
+$rem-unit:100px;
+$base-unit: .08rem;
+$base-font-size:$base-unit*1.75;
+$base-line-height:1.5;
+$base-font-family: "Open Sans", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
+
+/* Media query breakpoints
+-------------------------------------------------------------- */
+$phone-plus:"<=480px";
+$phone:"<tablet";
+$tablet:">=tablet";
+$desktop:">=desktop";
+$noDesktop:"<desktop";
+
+/* Color
+-------------------------------------------------------------- */
+$black:#000;
+$white-darkest:#f6f6f6;
+$white-darker:#f8f8f8;
+$white-dark:#f9f9f9;
+$white:#fff;
+$gray-darkest:#242424;
+$gray-darker:#505050;
+$gray-dark:#787878;
+$gray:#c1c1c1;
+$gray-light:#d0d0d0;
+$gray-lighter:#f0f0f0;
+$gray-lightest:#f8f8f8;
+$blue-dark: #006e98;
+$blue: #0d7fb6;
+$blue-light: #008abe;
+$blue-lighter: #00aeef;
+$blue-lightest: #d9eef5;
+$orange-darker: #fe4c40;
+$orange-dark: #ff6d4d;
+$orange: #e47f11;
+$orange-light: #f90;
+$darkest: rgba(0, 0, 0, .8);
+$darker: rgba(0, 0, 0, .7);
+$dark: rgba(0, 0, 0, .5);
+$dark-light: rgba(0, 0, 0, .35);
+$dark-lighter: rgba(0, 0, 0, .15);
+$white-light: rgba(255,255,255,.9);
+
+/* Body
+-------------------------------------------------------------- */
+$body-bg:$white;
+$body-color:$gray-darkest;
+
+/* Link
+-------------------------------------------------------------- */
+$link-color:$black;
+$link-decoration:underline;
+
+/* Z-Index
+-------------------------------------------------------------- */
+$z-index-1:100;
+$z-index-2:200;
+$z-index-3:300;
+$z-index-4:400;
+$z-index-5:500;
+$z-index-6:600;
+$z-index-7:700;
+$z-index-8:800;
+$z-index-9:900;
+$z-index-10:1000;
+
+/* Z-index used
+-------------------------------------------------------------- */
+$slider-text-z-index:$z-index-1;
+$slider-holder-z-index:$z-index-2;
+$header-z-index:$z-index-8;
+
+/* Sizing
+-------------------------------------------------------------- */
+$gap: $base-unit*2;

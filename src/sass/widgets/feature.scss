@@ -1,0 +1,31 @@
+.widget-feature {
+	background-color: $white;
+	height: auto !important;
+	.feature-wrapper {
+		display: flex;
+		margin-bottom: $gap*4;
+	}
+	.feature-icon {
+		color: $orange-dark;
+		margin-right: $base-unit*4;
+		.icon {
+			height: $base-unit*6;
+			width: $base-unit*6;
+		}
+	}
+	.feature-description {
+		h2 {
+			font-size: $base-unit*2.5;
+			font-weight: 100;
+			margin: 0 0 $base-unit*2;
+			text-transform: capitalize;
+		}
+		p {
+			font-size: $base-unit*2;
+			margin: 0;
+		}
+	}
+	&:after {
+		display: none;
+	}
+}
