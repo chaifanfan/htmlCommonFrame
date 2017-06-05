@@ -41,10 +41,9 @@ $(function() {
       autoplay: 5000,
       slidesPerView: 4,
       slidePerGroup: 4,
-      spaceBetween: 130,
+      spaceBetween: 32,
       pagination : '.swiper-pagination',
       paginationClickable: true,
-      parallax: true,
       speed: 600,
       loop: true,
       breakpoints: {
@@ -57,7 +56,7 @@ $(function() {
           slidePerGroup: 2
         },
         1500: {
-          slidesPerView: 3,
+          slidesPerView: 7,
           slidePerGroup: 3
         }
       }

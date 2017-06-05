@@ -5,9 +5,8 @@
 	}
 	.slider-wrapper {
 		overflow: hidden;
-		padding-top: 100%;
+		padding-top: 60%;
 		position: relative;
-		max-width: $rem-unit*3;
 		&:after {
 			background-color: $dark;
 			content: '';
@@ -41,7 +40,7 @@
 	.slider-title {
 		font-size: $base-unit*2;
 		font-weight: 100;
-		text-align: center;
+		margin: 0 0 10px 0;
 	}
 	.swiper-pagination-bullet {
 		background-color: transparent;

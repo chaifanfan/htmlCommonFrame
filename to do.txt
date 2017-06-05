@@ -21,6 +21,12 @@ http://shapebootstrap.net/item/1524944-egret-html5-landing-page/live-demo
 https://envato.com/#products
 
 
+更多文字与简化动图细节
+1 home文字：更多简单直白的介绍，突出特点与受众
+2 feature：ten reasons和简化的动图
+3 3种开始方式放在哪里？
+
+
 Q:
 视频的截图
 底部内容及样式
@@ -28,4 +34,4 @@ Q:
 导航位置 颜色 hover颜色
 
 
-windows mac
+windows?mac?
