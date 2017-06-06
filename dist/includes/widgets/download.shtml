@@ -1,0 +1,20 @@
+<div class="widget widget-download" id="download">
+	<div class="row">
+		<div class="col-d-4 download-wrapper">
+			<div class="global-width">
+				<p>一键安装与运行，本地编辑，多站点管理，本地服务器。</p>
+				<h1>下载KOOBOO CMS</h1>
+				<a class="btn btn-radius" href="#">下载</a>
+				<div>
+					<span>Version 1.0.0 | </span>
+					<a href="#">What's new</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-d-8 video-wrapper">
+			<video controls="controls" preload="auto" width="100%" height="100%">
+				<source src="https://p-events-delivery.akamaized.net/1609lijbsdfvoihbadfvohbsdfvljhb/vod3/16jlhbfvohbadsfv09b2.mp4" type="video/mp4">
+			</video>
+		</div>
+	</div>
+</div>
