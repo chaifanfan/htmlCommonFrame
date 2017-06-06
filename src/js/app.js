@@ -39,9 +39,14 @@ $(function() {
   (function handleSlider() {
     var swiper = new Swiper('.swiper-container', {
       autoplay: 5000,
-      slidesPerView: 4,
-      slidePerGroup: 4,
+      slidesPerView: 5,
       spaceBetween: 32,
+      // slidesPerColumn: 2,
+      // slidesOffsetBefore: 177,
+      // roundLengths: true,
+      freeMode: true,
+      freeModeSticky: true,
+      centeredSlides: true,
       pagination : '.swiper-pagination',
       paginationClickable: true,
       speed: 600,
@@ -49,15 +54,19 @@ $(function() {
       breakpoints: {
         480: {
           slidesPerView: 1,
-          slidePerGroup: 1
+          // slidesOffsetBefore: 0
         },
         768: {
           slidesPerView: 2,
-          slidePerGroup: 2
+          // slidesOffsetBefore: 184
+        },
+        1024: {
+          slidesPerView: 3,
+          // slidesOffsetBefore: 160
         },
         1500: {
-          slidesPerView: 7,
-          slidePerGroup: 3
+          slidesPerView: 4,
+          // slidesOffsetBefore: 135
         }
       }
     });

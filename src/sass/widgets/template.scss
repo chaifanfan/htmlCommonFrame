@@ -1,15 +1,18 @@
 .widget-template {
 	background-color: $white !important;
+	padding: 0 !important;
 	.global-width {
 		max-width: none;
+		width: auto;
 	}
 	.slider-wrapper {
+		border: .01rem solid $gray-lighter;
 		overflow: hidden;
 		padding-top: 60%;
 		position: relative;
 		&:after {
 			background-color: $dark;
-			content: '';
+			/* content: '';*/
 			height: 100%;
 			position: absolute;
 			top: 0;
