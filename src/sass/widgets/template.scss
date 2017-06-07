@@ -1,55 +1,30 @@
 .widget-template {
 	background-color: $white !important;
-	padding: 0 !important;
-	.global-width {
-		max-width: none;
-		width: auto;
+	.template-title {
+		font-size: $base-font-size*2;
+		font-weight: 300;
+		line-height: $gap*2;
+		margin: 0 0 $base-unit 0;
 	}
-	.slider-wrapper {
+	.template-description {
+		color: $gray-dark;
+		font-size: $base-font-size/.875;
+		margin: 0 0 $gap*2 0;
+	}
+	.list-wrapper {
 		border: .01rem solid $gray-lighter;
+		box-shadow: 0 .01rem .01rem -.01rem $dark-lighter;
+		display: block;
+		margin-bottom: $gap*2;
 		overflow: hidden;
 		padding-top: 60%;
 		position: relative;
-		&:after {
-			background-color: $dark;
-			/* content: '';*/
-			height: 100%;
+		img {
+			display: block;
+			max-width: 100%;
 			position: absolute;
 			top: 0;
 			width: 100%;
 		}
-	}
-	.slider-image {
-		box-shadow: 0px 1px 2px 0px rgba(32, 48, 60, 0.14), 0px 3px 3px 0px rgba(32, 48, 60, 0.06);
-		display: block;
-		position: absolute;
-		top: 0;
-		transition: top .4s ease-in-out;
-		width: 100%;/*change later*/
-	}
-	.slider-text {
-		font-size: $base-unit*2;
-		font-weight: 300;
-		left: 0;
-		position: absolute;
-		right: 0;
-		text-align: center;
-		top: 43%;
-		z-index: $slider-text-z-index;
-		a {
-			color: $white;
-			text-decoration: none;
-		 }
-	}
-	.slider-title {
-		font-size: $base-unit*2;
-		font-weight: 100;
-		margin: 0 0 10px 0;
-	}
-	.swiper-pagination-bullet {
-		background-color: transparent;
-		border: .01rem solid $orange-darker;
-		height: $base-unit*1.25;
-		width: $base-unit*1.25;
 	}
 }

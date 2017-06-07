@@ -1,52 +1,68 @@
 <div class="widget widget-template" id="template">
 	<div class="global-width">
-		<div class="swiper-container">
-		  <div class="swiper-wrapper">
-		    <div class="swiper-slide">
-		    	<div class="slider-wrapper">
-			      <img class="slider-image" src="uploads/1.png">
-				    <div class="slider-text">
-				    </div>
-		    	</div>
-		    </div>
-		    <div class="swiper-slide">
-		    	<div class="slider-wrapper">
-			      <img class="slider-image" src="uploads/2.png">
-				    <div class="slider-text">
-				    </div>
-		    	</div>
-		    </div>
-		    <div class="swiper-slide">
-		    	<div class="slider-wrapper">
-			      <img class="slider-image" src="uploads/3.png">
-				    <div class="slider-text">
-				    </div>
-		    	</div>
-		    </div>
-		    <div class="swiper-slide">
-		    	<div class="slider-wrapper">
-			      <img class="slider-image" src="uploads/1.png">
-				    <div class="slider-text">
-				    </div>
-		    	</div>
-		    </div>
-		    <div class="swiper-slide">
-		    	<div class="slider-wrapper">
-			      <img class="slider-image" src="uploads/2.png">
-				    <div class="slider-text">
-				    </div>
-		    	</div>
-		    </div>
-		    <div class="swiper-slide">
-		    	<div class="slider-wrapper">
-			      <img class="slider-image" src="uploads/3.png">
-				    <div class="slider-text">
-				    </div>
-		    	</div>
-		    </div>
-		  </div>
-	      <!-- Add Pagination -->
-		  <div class="swiper-pagination"></div>
+		<h2 class="template-title">Check out the newest templates</h2>
+		<p class="template-description">Thousands of HTML5 and responsive templates.</p>
+		<div class="row template-list">
+			<div class="col-2">
+				<a class="list-wrapper" href="#">
+					<img src="uploads/1.png">
+				</a>
+			</div>
+			<div class="col-2">
+				<a class="list-wrapper" href="#">
+					<img src="uploads/2.png">
+				</a>
+			</div>
+			<div class="col-2">
+				<a class="list-wrapper" href="#">
+					<img src="uploads/3.png">
+				</a>
+			</div>
+			<div class="col-2">
+				<a class="list-wrapper" href="#">
+					<img src="uploads/4.png">
+				</a>
+			</div>
+			<div class="col-2">
+				<a class="list-wrapper" href="#">
+					<img src="uploads/5.png">
+				</a>
+			</div>
+			<div class="col-2">
+				<a class="list-wrapper" href="#">
+					<img src="uploads/6.png">
+				</a>
+			</div>
+			<div class="col-2">
+				<a class="list-wrapper" href="#">
+					<img src="uploads/7.png">
+				</a>
+			</div>
+			<div class="col-2">
+				<a class="list-wrapper" href="#">
+					<img src="uploads/8.png">
+				</a>
+			</div>
+			<div class="col-2">
+				<a class="list-wrapper" href="#">
+					<img src="uploads/9.png">
+				</a>
+			</div>
+			<div class="col-2">
+				<a class="list-wrapper" href="#">
+					<img src="uploads/1.png">
+				</a>
+			</div>
+			<div class="col-2">
+				<a class="list-wrapper" href="#">
+					<img src="uploads/2.png">
+				</a>
+			</div>
+			<div class="col-2">
+				<a class="list-wrapper" href="#">
+					<img src="uploads/3.png">
+				</a>
+			</div>
 		</div>
 	</div>
 </div>
