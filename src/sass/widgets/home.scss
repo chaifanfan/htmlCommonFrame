@@ -20,12 +20,10 @@
     h1 {
         font-size: $base-font-size*5;
         font-weight: 700;
-        letter-spacing: -($base-unit*.5);
         line-height: $base-font-size*5;
         margin: 0;
         @include media($phone) {
             font-size: $base-unit*6;
-            letter-spacing: -($base-unit*.25);
             line-height: $base-unit*6;
         }
     }

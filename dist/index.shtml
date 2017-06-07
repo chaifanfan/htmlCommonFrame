@@ -13,7 +13,6 @@
   <!--#include file="includes/widgets/download.shtml" -->
   <!--#include file="includes/widgets/feature.shtml" -->
   <!--#include file="includes/widgets/template.shtml" -->
-  <!--#include file="includes/widgets/client.shtml" -->
 
   </div>
   <!--#include file="includes/footer.shtml" -->

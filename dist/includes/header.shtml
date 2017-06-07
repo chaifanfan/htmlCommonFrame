@@ -15,16 +15,15 @@
 				</a>
 			</h1>
 			<ul class="clearfix nav">
-				<li><a href="#download">下载</a></li>
-				<li><a href="#feature">功能</a></li>
-				<li><a href="#template">模板</a></li>
-				<li><a href="#client">谁在用</a></li>
+				<li><a href="#download">Download</a></li>
+				<li><a href="#feature">Feature</a></li>
+				<li><a href="#template">Template</a></li>
 			</ul>
 		</nav>
 
 		<div class="btn-group hide-mobile">
-			<a class="btn btn-line btn-short btn-radius" href="#">注册</a>
-			<a class="btn btn-line btn-white btn-short btn-radius" href="#">登录</a>
+			<a class="btn btn-line btn-short btn-radius" href="#">Sign up</a>
+			<a class="btn btn-line btn-white btn-short btn-radius" href="#">Sign in</a>
 		</div>
 		<a class="signin show-mobile" href="#"><svg class="icon icon-user ">
 	<use xlink:href="images/icons.svg#icon-user"></use>

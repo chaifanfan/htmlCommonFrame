@@ -3,7 +3,6 @@
 		<div class="swiper-container">
 		  <div class="swiper-wrapper">
 		    <div class="swiper-slide">
-			    <h3 class="slider-title">模板一</h3>
 		    	<div class="slider-wrapper">
 			      <img class="slider-image" src="uploads/1.png">
 				    <div class="slider-text">
@@ -11,7 +10,6 @@
 		    	</div>
 		    </div>
 		    <div class="swiper-slide">
-			    <h3 class="slider-title">模板二</h3>
 		    	<div class="slider-wrapper">
 			      <img class="slider-image" src="uploads/2.png">
 				    <div class="slider-text">
@@ -19,7 +17,6 @@
 		    	</div>
 		    </div>
 		    <div class="swiper-slide">
-			    <h3 class="slider-title">模板三</h3>
 		    	<div class="slider-wrapper">
 			      <img class="slider-image" src="uploads/3.png">
 				    <div class="slider-text">
@@ -27,7 +24,6 @@
 		    	</div>
 		    </div>
 		    <div class="swiper-slide">
-			    <h3 class="slider-title">模板一</h3>
 		    	<div class="slider-wrapper">
 			      <img class="slider-image" src="uploads/1.png">
 				    <div class="slider-text">
@@ -35,7 +31,6 @@
 		    	</div>
 		    </div>
 		    <div class="swiper-slide">
-			    <h3 class="slider-title">模板二</h3>
 		    	<div class="slider-wrapper">
 			      <img class="slider-image" src="uploads/2.png">
 				    <div class="slider-text">
@@ -43,7 +38,6 @@
 		    	</div>
 		    </div>
 		    <div class="swiper-slide">
-			    <h3 class="slider-title">模板三</h3>
 		    	<div class="slider-wrapper">
 			      <img class="slider-image" src="uploads/3.png">
 				    <div class="slider-text">

@@ -1,20 +1,6 @@
 <div class="widget widget-home" id="home">
 	<div class="global-width">
-		<h1>KOOBOO CMS</h1>
-		<p>简洁、快速、直观的内容管理系统</p>
-		<div class="btn-group">
-			<a class="btn btn-line btn-white btn-radius" href="#">建网站<svg class="icon icon-web ">
-	<use xlink:href="images/icons.svg#icon-web"></use>
-</svg>
-</a>
-			<a class="btn btn-line btn-white btn-radius" href="#download">看视频<svg class="icon icon-video ">
-	<use xlink:href="images/icons.svg#icon-video"></use>
-</svg>
-</a>
-			<a class="btn btn-line btn-white btn-radius" href="#">查文档<svg class="icon icon-doc ">
-	<use xlink:href="images/icons.svg#icon-doc"></use>
-</svg>
-</a>
-		</div>
+		<h1>inspiration.</h1>
+		<p>Kooboo CMS help you build your website fast.</p>
 	</div>
 </div>

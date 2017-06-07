@@ -23,7 +23,7 @@ body {
 	background: $body-bg;
 	color: $body-color;
 	font:#{$base-font-size}/#{$base-line-height} $base-font-family;
-	letter-spacing: .5px;
+	/* letter-spacing: .5px;*/
 	margin: 0;
 	/*Use px instead of rem for IE*/
 }
