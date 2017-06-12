@@ -1,5 +1,5 @@
 .widget-home {
-    height: auto !important;
+    box-shadow: 0 0 $base-unit $dark;
     padding-top: $base-unit*9 !important;
     position: relative;
     &:after {
@@ -13,9 +13,12 @@
     }
     .global-width {
         color: $white;
-        padding: 9% 0;
+        padding: 7% 0;
         position: relative;
         z-index: 1;
+    }
+    .home-wrapper {
+        justify-content: space-between;
     }
     h1 {
         font-size: $base-font-size*5;
@@ -31,37 +34,39 @@
         font-size: $base-unit*2;
         margin: $base-unit*5 0;
     }
-    .btn-group {
-        justify-content: flex-start;
+    .form-wrapper {
+        background-color: $white-lightest;
+        background-color: $dark-light;
+        border-radius: $base-unit;
+        box-sizing: border-box;
+        font-size: $base-font-size/.875;
+        max-width: $rem-unit*4.08;
+        padding: $base-unit*6 $base-unit*5;
+        .form-group {
+            margin-bottom: $base-unit*4;
+            text-align: left;
+        }
         .btn {
-            letter-spacing: 0;
+            box-sizing: border-box;
+            color: $gray-darkest;
+            font-weight: 700;
+            outline: none;
+            width: 100%;
         }
-        .icon {
-            margin-left: $base-unit*1.25;
-            position: relative;
-            vertical-align: sub;
-        }
-        .btn:nth-child(1) {
-        	border-color: rgba(255,109,77,.7);
-        	transition: all .2s;
-        	&:hover {
-        		border-color: rgba(255,109,77,1);
-        	}
-        }
-        .btn:nth-child(1):hover .icon {
-        	/* animation: zoom 0.25s 2 linear alternate;*/
-        }
-        .btn:nth-child(2):hover .icon {
-        	animation: vertical 0.75s 2 linear alternate;
-        }
-        .btn:nth-child(3):hover .icon {
-        	animation: zoom 0.25s 2 linear alternate;
+        .input-block {
+            background-color: $white;
+            border: .01rem solid $gray-lighter;
+            border-radius: $base-unit*.5;
+            box-sizing: border-box;
+            color: $gray-darkest;
+            display: block;
+            margin-top: $base-unit;
+            outline: none;
+            padding: $base-unit $base-unit*1.5;
+            width: 100%;
         }
         @include media($phone) {
-            flex-direction: column;
-            .btn {
-                margin: $gap 0;
-            }
+            margin: 0 auto;
         }
     }
     @include media($phone) {

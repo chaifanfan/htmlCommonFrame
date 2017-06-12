@@ -30,12 +30,27 @@ $(function() {
       var target = $('.nav-toggle');
       $('.nav-wrapper ul').slideToggle();
     });
-  })();
+  }());
   // Scrollspy
   $('body').scrollspy({
     target: '.nav-wrapper'
   });
   // Slider
+  (function handleSlider() {
+    var swiper = new Swiper('.swiper-container', {
+      autoplay: false,
+      slidesPerView: 6,
+      spaceBetween: 50,
+      slidesPerColumn: 2,
+      slidesPerColumnFill: 'row',
+      breakpoints: {
+        1024: {
+          autoplay: 5000,
+          slidesPerView: 3
+        }
+      }
+    });
+  })();
   // (function handleSlider() {
   //   var swiper = new Swiper('.swiper-container', {
   //     autoplay: 5000,

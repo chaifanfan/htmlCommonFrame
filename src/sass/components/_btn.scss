@@ -13,6 +13,11 @@
 	padding-left: $base-unit*2.5;
 	padding-right: $base-unit*2.5;
 }
+.btn-movtivation {
+    border-width: .02rem;
+    padding-bottom: $base-unit*1.5;
+    padding-top: $base-unit*1.5;
+}
 .btn-line {
     background-color: transparent;
     color: $orange-dark;

@@ -4,7 +4,7 @@ $rem-unit:100px;
 $base-unit: .08rem;
 $base-font-size:$base-unit*1.75;
 $base-line-height:1.5;
-$base-font-family: "Open Sans", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
+$base-font-family: 'OpenSans', Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
 
 /* Media query breakpoints
 -------------------------------------------------------------- */
@@ -39,10 +39,11 @@ $orange: #e47f11;
 $orange-light: #f90;
 $darkest: rgba(0, 0, 0, .8);
 $darker: rgba(0, 0, 0, .7);
-$dark: rgba(0, 0, 0, .5);
-$dark-light: rgba(0, 0, 0, .35);
+$dark: rgba(0, 0, 0, .4);
+$dark-light: rgba(0, 0, 0, .3);
 $dark-lighter: rgba(0, 0, 0, .1);
 $white-light: rgba(255,255,255,.9);
+$white-lightest: rgba(255,255,255,.1);
 
 /* Body
 -------------------------------------------------------------- */

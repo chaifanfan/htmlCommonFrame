@@ -1,65 +1,12 @@
 <div class="widget widget-feature" id="feature">
 	<div class="global-width">
-		<div class="row">
-			<div class="col-d-6 feature-wrapper">
-				<i class="feature-icon"><svg class="icon icon-use ">
-	<use xlink:href="images/icons.svg#icon-use"></use>
-</svg>
-</i>
-				<div class="feature-description">
-					<h2>快速使用</h2>
-					<p>只需一键下载与安装。输入想要的网站网址或者选择喜欢的模板，只需修改内容，即可拥有自己的站点。</p>
-				</div>
+		<div class="row feature-wrapper">
+			<div class="col-m-5">
+				<h2 class="title">Easy to get start</h2>
+				<p class="description">Download and double click, everything is ready to go. After that, You have four ways to get start. For example, transfer public website by a url or use built in templates. Inline editing any page content, click anywhere to edit anything.</p>
 			</div>
-			<div class="col-d-6 feature-wrapper">
-				<i class="feature-icon"><svg class="icon icon-develop ">
-	<use xlink:href="images/icons.svg#icon-develop"></use>
-</svg>
-</i>
-				<div class="feature-description">
-					<h2>方便开发</h2>
-					<p>无需数据库知识储备。用你最喜欢的本地工具进行编辑，内容即可自动同步。</p>
-				</div>
-			</div>
-			<div class="col-d-6 feature-wrapper">
-				<i class="feature-icon"><svg class="icon icon-use ">
-	<use xlink:href="images/icons.svg#icon-use"></use>
-</svg>
-</i>
-				<div class="feature-description">
-					<h2>快速使用</h2>
-					<p>只需一键下载与安装。输入想要的网站网址或者选择喜欢的模板，只需修改内容，即可拥有自己的站点。</p>
-				</div>
-			</div>
-			<div class="col-d-6 feature-wrapper">
-				<i class="feature-icon"><svg class="icon icon-develop ">
-	<use xlink:href="images/icons.svg#icon-develop"></use>
-</svg>
-</i>
-				<div class="feature-description">
-					<h2>方便开发</h2>
-					<p>无需数据库知识储备。用你最喜欢的本地工具进行编辑，内容即可自动同步。</p>
-				</div>
-			</div>
-			<div class="col-d-6 feature-wrapper">
-				<i class="feature-icon"><svg class="icon icon-use ">
-	<use xlink:href="images/icons.svg#icon-use"></use>
-</svg>
-</i>
-				<div class="feature-description">
-					<h2>快速使用</h2>
-					<p>只需一键下载与安装。输入想要的网站网址或者选择喜欢的模板，只需修改内容，即可拥有自己的站点。</p>
-				</div>
-			</div>
-			<div class="col-d-6 feature-wrapper">
-				<i class="feature-icon"><svg class="icon icon-develop ">
-	<use xlink:href="images/icons.svg#icon-develop"></use>
-</svg>
-</i>
-				<div class="feature-description">
-					<h2>方便开发</h2>
-					<p>无需数据库知识储备。用你最喜欢的本地工具进行编辑，内容即可自动同步。</p>
-				</div>
+			<div class="col-m-6">
+				<img src="images/travel-website.jpg">
 			</div>
 		</div>
 	</div>

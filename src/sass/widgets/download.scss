@@ -1,37 +1,33 @@
 .widget-download {
 	background-color: $white-dark;
-	height: auto !important;
-	.download-wrapper {
-		align-items: center;
-		display: flex;
-		justify-content: center;
-		.global-width {
-			max-width: $rem-unit*4.2;
-			padding: $base-unit*3 0;
-			@include media($noDesktop) {
-				max-width: none;
-			}
+	.swiper-container{
+		margin-bottom: $gap*4;
+	}
+	.feature-icon {
+		color: $orange-dark;
+		display: block;
+		.icon {
+			display: block;
+			height: $base-unit*7;
+			margin: 0 auto;
+			width: $base-unit*7;
 		}
 	}
-	p {
-		font-size: $base-unit*2;
-		margin: 0;
-	}
-	h1 {
-		font-size: $base-unit*3.75;
-		margin: $base-unit 0 $base-unit*2;
+	.feature-title {
+		font-size: $base-font-size/.875;
+		font-weight: 300;
+		line-height: $base-unit*3;
+		margin: $gap 0 0 0;
 	}
 	.btn {
+		color: $gray-darkest;
 		font-size: $base-unit*2;
+		font-weight: 600;
 		margin-bottom: $gap*2;
 		&:hover {
-			background-color: $orange-light;
-			border-color: $orange-light;
+			background-color: transparent;
+			border-color: $gray-darkest;
 		}
-	}
-	.video-wrapper {
-		font-size: 0;
-		padding: 0;
 	}
 	&:after {
 		display: none;

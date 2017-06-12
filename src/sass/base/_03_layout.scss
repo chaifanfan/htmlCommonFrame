@@ -5,7 +5,7 @@
 	margin: 0 auto;
 	width: 90%;
 	@include media($desktop) {
-		max-width: 9.8rem;
+		max-width: 11.4rem;
 	}
 }
 
@@ -15,12 +15,13 @@
 .header {
 	box-sizing: border-box;
 	color: $white;
-	height: $base-unit*9;
+	height: $base-unit*10.25;
 	left: 0;
+	padding-top: $base-unit*1.25;
 	position: fixed;
 	right: 0;
 	top: 0;
-	transition: all .7s ease-in-out;
+	transition: padding-top .4s ease-in-out, height .4s ease-in-out, background-color .4s ease-in-out .2s;
 	z-index: $header-z-index;
 	.global-width {
 		align-items: center;
@@ -28,6 +29,10 @@
 		height: 100%;
 		justify-content: space-between;
 		max-width: none;
+		@include media($desktop) {
+			padding: 0 $gap*2;
+			width: auto;
+		}
 	}
 	.logo {
 		height: $base-unit*2.75;
@@ -100,9 +105,19 @@
 	}
 	.scrolling & {
 		background-color: $darkest;
+		height: $base-unit*9;
+		padding-top: 0;
+		@include media($phone) {
+			height: $base-unit*6;
+		}
+		@include media($phone){
+			.nav-wrapper ul {
+				top: $base-unit*6;
+			}
+		}
 	}
 	@include media($phone) {
-		height: $base-unit*6;
+		height: $base-unit*7.25;
 		.logo {
 			margin: 0 auto;
 			overflow: hidden;
@@ -116,7 +131,8 @@
 				margin: 0;
 				padding-bottom: $base-unit*1.75;
 				position: absolute;
-				top: $base-unit*6;
+				top: $base-unit*7.25;
+				transition: top .4s ease-in-out;
 				width: 100%;
 				li {
 					display: block;
@@ -163,7 +179,10 @@
 		}
 	}
 	.global-width {
-		padding: $base-unit*8 0;
+		padding: $base-unit*12.5 0;
+		@include media($phone-plus) {
+			padding: $base-unit*8 0;
+		}
 	}
 	@include media($phone-plus) {
 		background-attachment: scroll;

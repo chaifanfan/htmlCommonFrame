@@ -1,3 +1,13 @@
 .widget {
-
+	.title {
+		font-size: $base-unit*4;
+		font-weight: 300;
+		line-height: $base-unit*5;
+		margin: 0 0 $base-unit 0;
+	}
+	.description {
+		color: $gray-dark;
+		font-size: $base-font-size/.875;
+		margin: 0 0 $gap*3 0;
+	}
 }

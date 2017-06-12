@@ -31,9 +31,16 @@ http://www.easycounter.com/report/dmayun.com
 
 Q:
 视频的截图
-底部内容及样式
-中英文字体 字体在行高中的位置和开始的位置
-导航位置 颜色 hover颜色
+导航hover颜色
 
 
 windows?mac?
+底部内容及样式？
+
+
+idea:
+
+gif（圆形表示步数 动态推进式一步步出现 循环）
+Step1 成为我们的用户
+Step2 编辑你的内容
+Step3 发布你的网站

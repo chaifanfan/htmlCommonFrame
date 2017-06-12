@@ -1,20 +1,101 @@
 <div class="widget widget-download" id="download">
-	<div class="row">
-		<div class="col-d-4 download-wrapper">
-			<div class="global-width">
-				<p>Click to run, local edit, site management, local database.</p>
-				<h1>Get Kooboo</h1>
-				<a class="btn btn-radius" href="#">Download</a>
-				<div>
-					<span>Version 1.0.0 | </span>
-					<a href="#">What's new</a>
-				</div>
+	<div class="global-width">
+		<h2 class="title">More wonderful features are in Kooboo Desktop</h2>
+		<p class="description">Click to run, local edit, site management, local database...</p>
+		<div class="swiper-container text-center">
+			<div class="swiper-wrapper">
+			    <div class="swiper-slide">
+			    	<i class="feature-icon"><svg class="icon icon-use ">
+	<use xlink:href="images/icons.svg#icon-use"></use>
+</svg>
+</i>
+			    	<h3 class="feature-title">slider1</h3>
+			    </div>
+			    <div class="swiper-slide">
+			    	<i class="feature-icon"><svg class="icon icon-use ">
+	<use xlink:href="images/icons.svg#icon-use"></use>
+</svg>
+</i>
+			    	<h3 class="feature-title">slider2</h3>
+			    </div>
+			    <div class="swiper-slide">
+			    	<i class="feature-icon"><svg class="icon icon-use ">
+	<use xlink:href="images/icons.svg#icon-use"></use>
+</svg>
+</i>
+			    	<h3 class="feature-title">slider3</h3>
+			    </div>
+			    <div class="swiper-slide">
+			    	<i class="feature-icon"><svg class="icon icon-use ">
+	<use xlink:href="images/icons.svg#icon-use"></use>
+</svg>
+</i>
+			    	<h3 class="feature-title">slider4</h3>
+			    </div>
+			    <div class="swiper-slide">
+			    	<i class="feature-icon"><svg class="icon icon-use ">
+	<use xlink:href="images/icons.svg#icon-use"></use>
+</svg>
+</i>
+			    	<h3 class="feature-title">slider5</h3>
+			    </div>
+			    <div class="swiper-slide">
+			    	<i class="feature-icon"><svg class="icon icon-use ">
+	<use xlink:href="images/icons.svg#icon-use"></use>
+</svg>
+</i>
+			    	<h3 class="feature-title">slider6</h3>
+			    </div>
+			    <div class="swiper-slide">
+			    	<i class="feature-icon"><svg class="icon icon-develop ">
+	<use xlink:href="images/icons.svg#icon-develop"></use>
+</svg>
+</i>
+			    	<h3 class="feature-title">slider7</h3>
+			    </div>
+			    <div class="swiper-slide">
+			    	<i class="feature-icon"><svg class="icon icon-develop ">
+	<use xlink:href="images/icons.svg#icon-develop"></use>
+</svg>
+</i>
+			    	<h3 class="feature-title">slider8</h3>
+			    </div>
+			    <div class="swiper-slide">
+			    	<i class="feature-icon"><svg class="icon icon-develop ">
+	<use xlink:href="images/icons.svg#icon-develop"></use>
+</svg>
+</i>
+			    	<h3 class="feature-title">slider9</h3>
+			    </div>
+			    <div class="swiper-slide">
+			    	<i class="feature-icon"><svg class="icon icon-develop ">
+	<use xlink:href="images/icons.svg#icon-develop"></use>
+</svg>
+</i>
+			    	<h3 class="feature-title">slider10</h3>
+			    </div>
+			    <div class="swiper-slide">
+			    	<i class="feature-icon"><svg class="icon icon-use ">
+	<use xlink:href="images/icons.svg#icon-use"></use>
+</svg>
+</i>
+			    	<h3 class="feature-title">slider11</h3>
+			    </div>
+			    <div class="swiper-slide">
+			    	<i class="feature-icon"><svg class="icon icon-use ">
+	<use xlink:href="images/icons.svg#icon-use"></use>
+</svg>
+</i>
+			    	<h3 class="feature-title">slider12</h3>
+			    </div>
 			</div>
 		</div>
-		<div class="col-d-8 video-wrapper">
-			<video controls="controls" preload="auto" width="100%" height="100%">
-				<source src="https://p-events-delivery.akamaized.net/1609lijbsdfvoihbadfvohbsdfvljhb/vod3/16jlhbfvohbadsfv09b2.mp4" type="video/mp4">
-			</video>
+		<div class="download-wrapper text-center">
+			<a class="btn btn-radius btn-line btn-movtivation" href="#">Download</a>
+			<div>
+				<span>Version 1.0.0 | </span>
+				<a href="#">What's new</a>
+			</div>
 		</div>
 	</div>
 </div>

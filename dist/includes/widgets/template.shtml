@@ -1,7 +1,7 @@
 <div class="widget widget-template" id="template">
 	<div class="global-width">
-		<h2 class="template-title">Check out the newest templates</h2>
-		<p class="template-description">Thousands of HTML5 and responsive templates.</p>
+		<h2 class="title">Check out the newest templates</h2>
+		<p class="description">Thousands of HTML5 and responsive templates.</p>
 		<div class="row template-list">
 			<div class="col-2">
 				<a class="list-wrapper" href="#">
