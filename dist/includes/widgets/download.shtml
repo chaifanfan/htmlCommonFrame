@@ -5,8 +5,8 @@
 		<div class="swiper-container text-center">
 			<div class="swiper-wrapper">
 			    <div class="swiper-slide">
-			    	<i class="feature-icon"><svg class="icon icon-use ">
-	<use xlink:href="images/icons.svg#icon-use"></use>
+			    	<i class="feature-icon"><svg class="icon icon-u4 ">
+	<use xlink:href="images/icons.svg#icon-u4"></use>
 </svg>
 </i>
 			    	<h3 class="feature-title">slider1</h3>
