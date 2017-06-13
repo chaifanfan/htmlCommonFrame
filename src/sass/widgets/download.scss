@@ -1,5 +1,5 @@
 .widget-download {
-	background-color: $white-dark;
+	background-color: $white-dark !important;
 	.swiper-container{
 		margin-bottom: $gap*4;
 	}
@@ -31,5 +31,30 @@
 	}
 	&:after {
 		display: none;
+	}
+	.swiper-button-prev, .swiper-button-next {
+		background: transparent;
+		border-radius: 50%;
+		color: $gray-darkest;
+		height: $base-unit*7;
+		margin-top: -$base-unit*3.5;
+		transition: all 1s;
+		width: $base-unit*7;
+		.icon {
+			display: block;
+			height: $base-unit*3.5;
+			margin: $base-unit*1.75;
+			width: $base-unit*3.5;
+		}
+	}
+	.swiper-wrapper {
+		.swiper-slide {
+			width: 16.6667%;
+		}
+	}
+	.swiper-button-next {
+		.icon {
+			transform: rotate(180deg);
+		}
 	}
 }

@@ -37,7 +37,7 @@ $(function() {
   });
   // Slider
   (function handleSlider() {
-    var swiper = new Swiper('.swiper-container', {
+    var swiper1 = new Swiper('.widget-download .swiper-container', {
       autoplay: false,
       slidesPerView: 6,
       spaceBetween: 50,
@@ -46,44 +46,22 @@ $(function() {
       breakpoints: {
         1024: {
           autoplay: 5000,
-          slidesPerView: 3
+          slidesPerView: 3,
+          spaceBetween: 30,
+          nextButton: '.swiper-button-next',
+          prevButton: '.swiper-button-prev'
         }
       }
     });
-  })();
-  // (function handleSlider() {
-  //   var swiper = new Swiper('.swiper-container', {
-  //     autoplay: 5000,
-  //     slidesPerView: 5,
-  //     spaceBetween: 32,
-  //     // slidesPerColumn: 2,
-  //     // slidesOffsetBefore: 177,
-  //     // roundLengths: true,
-  //     freeMode: true,
-  //     freeModeSticky: true,
-  //     centeredSlides: true,
-  //     pagination : '.swiper-pagination',
-  //     paginationClickable: true,
-  //     speed: 600,
-  //     loop: true,
-  //     breakpoints: {
-  //       480: {
-  //         slidesPerView: 1,
-  //         // slidesOffsetBefore: 0
-  //       },
-  //       768: {
-  //         slidesPerView: 2,
-  //         // slidesOffsetBefore: 184
-  //       },
-  //       1024: {
-  //         slidesPerView: 3,
-  //         // slidesOffsetBefore: 160
-  //       },
-  //       1500: {
-  //         slidesPerView: 4,
-  //         // slidesOffsetBefore: 135
-  //       }
-  //     }
-  //   });
-  // }());
-});
+
+    var swiper2 = new Swiper('.widget-home .swiper-container', {
+      autoplay: 5000,
+      speed: 900,
+      parallax: true,
+      pagination : '.swiper-pagination',
+      paginationClickable: true,
+      loop: true
+    });
+  }());
+  
+})

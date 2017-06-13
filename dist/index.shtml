@@ -10,6 +10,7 @@
   <!--#include file="includes/header.shtml" -->
   <div class="main">
       <!--#include file="includes/widgets/home.shtml" -->
+  <!--#include file="includes/widgets/video.shtml" -->
   <!--#include file="includes/widgets/feature.shtml" -->
   <!--#include file="includes/widgets/download.shtml" -->
   <!--#include file="includes/widgets/template.shtml" -->

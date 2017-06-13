@@ -6,8 +6,8 @@
 		margin: 0 0 $base-unit 0;
 	}
 	.description {
-		color: $gray-dark;
-		font-size: $base-font-size/.875;
+        font-size: $base-unit*2.25;
+		font-weight: 300;
 		margin: 0 0 $gap*3 0;
 	}
 }

@@ -20,10 +20,10 @@
     .home-wrapper {
         justify-content: space-between;
     }
-    h1 {
+    .slogan {
         font-size: $base-font-size*5;
         font-weight: 700;
-        line-height: $base-font-size*5;
+        line-height: $base-unit*11;
         margin: 0;
         @include media($phone) {
             font-size: $base-unit*6;
@@ -31,8 +31,33 @@
         }
     }
     p {
-        font-size: $base-unit*2;
+        font-size: $base-unit*2.25;
+        font-weight: 300;
+        line-height: $base-unit*4;
         margin: $base-unit*5 0;
+    }
+    .swiper-container {
+        padding: $base-unit*2 0 $gap*6;
+        .slider-text {
+            padding-left: .01rem;
+        }
+        .rate {
+            font-size: $base-unit*3;
+            font-weight: 700;
+            margin: 0;
+            .icon {
+                color: #f4ec09;
+                height: $base-unit*3;
+                width: $base-unit*3;
+            }
+        }
+        .swiper-pagination-bullet {
+            height: $base-unit*1.25;
+            width: $base-unit*1.25;
+        }
+        @include media($phone) {
+            padding-bottom: $base-unit*8;
+        }
     }
     .form-wrapper {
         background-color: $white-lightest;

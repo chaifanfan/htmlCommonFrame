@@ -2,8 +2,87 @@
 	<div class="global-width">
         <div class="row home-wrapper">
             <div class="col-m-6">
-                <h1>inspiration.</h1>
-                <p>Kooboo CMS help you build your website fast.</p>
+                <h1 class="slogan">inspiration.</h1>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="slider-text">
+                                <p>Download and double click, everything is ready to go.<br>After that, You have four ways to get start. For example, transfer public website by a url or use built in templates.</p>
+                                <h2 class="rate" data-swiper-parallax="-3000">
+                                    Speed<br>
+                                    <svg class="icon icon-star ">
+                                    	<use xlink:href="images/icons.svg#icon-star"></use>
+                                    </svg>
+                                    <svg class="icon icon-star ">
+                                    	<use xlink:href="images/icons.svg#icon-star"></use>
+                                    </svg>
+                                    <svg class="icon icon-star ">
+                                    	<use xlink:href="images/icons.svg#icon-star"></use>
+                                    </svg>
+                                    <svg class="icon icon-star ">
+                                    	<use xlink:href="images/icons.svg#icon-star"></use>
+                                    </svg>
+                                    <svg class="icon icon-star ">
+                                    	<use xlink:href="images/icons.svg#icon-star"></use>
+                                    </svg>
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider-text">
+                                <p>Download and double click, everything is ready to go.<br>After that, You have four ways to get start. For example, transfer public website by a url or use built in templates.</p>
+                                <h2 class="rate" data-swiper-parallax="-3000">
+                                    Speed<br>
+                                    <svg class="icon icon-star ">
+                                    	<use xlink:href="images/icons.svg#icon-star"></use>
+                                    </svg>
+                                    <svg class="icon icon-star ">
+                                    	<use xlink:href="images/icons.svg#icon-star"></use>
+                                    </svg>
+                                    <svg class="icon icon-star ">
+                                    	<use xlink:href="images/icons.svg#icon-star"></use>
+                                    </svg>
+                                    <svg class="icon icon-star ">
+                                    	<use xlink:href="images/icons.svg#icon-star"></use>
+                                    </svg>
+                                    <svg class="icon icon-star ">
+                                    	<use xlink:href="images/icons.svg#icon-star"></use>
+                                    </svg>
+                                    <svg class="icon icon-star ">
+                                    	<use xlink:href="images/icons.svg#icon-star"></use>
+                                    </svg>
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider-text">
+                                <p>Download and double click, everything is ready to go.<br>After that, You have four ways to get start. For example, transfer public website by a url or use built in templates.</p>
+                                <h2 class="rate" data-swiper-parallax="-3000">
+                                    Speed<br>
+                                    <svg class="icon icon-star ">
+                                    	<use xlink:href="images/icons.svg#icon-star"></use>
+                                    </svg>
+                                    <svg class="icon icon-star ">
+                                    	<use xlink:href="images/icons.svg#icon-star"></use>
+                                    </svg>
+                                    <svg class="icon icon-star ">
+                                    	<use xlink:href="images/icons.svg#icon-star"></use>
+                                    </svg>
+                                    <svg class="icon icon-star ">
+                                    	<use xlink:href="images/icons.svg#icon-star"></use>
+                                    </svg>
+                                    <svg class="icon icon-star ">
+                                    	<use xlink:href="images/icons.svg#icon-star"></use>
+                                    </svg>
+                                    <svg class="icon icon-star ">
+                                    	<use xlink:href="images/icons.svg#icon-star"></use>
+                                    </svg>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
             </div>
             <div class="col-m-5">
                 <div class="form-wrapper">

@@ -89,6 +89,16 @@
 			    	<h3 class="feature-title">slider12</h3>
 			    </div>
 			</div>
+			<div class="swiper-button-prev hide-desktop">
+			    <svg class="icon icon-arrow ">
+			    	<use xlink:href="images/icons.svg#icon-arrow"></use>
+			    </svg>
+		  	</div>
+			<div class="swiper-button-next hide-desktop" >
+			    <svg class="icon icon-arrow ">
+			    	<use xlink:href="images/icons.svg#icon-arrow"></use>
+			    </svg>
+		  	</div>
 		</div>
 		<div class="download-wrapper text-center">
 			<a class="btn btn-radius btn-line btn-movtivation" href="#">Download</a>
