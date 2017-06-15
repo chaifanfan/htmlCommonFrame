@@ -1,5 +1,11 @@
 .widget-video {
 	/* background-color: $white !important;*/
+	h2 {
+		font-size: $base-unit*3.25;
+		font-weight: 300;
+		line-height: $base-unit*5;
+		margin: 0 0 $gap*3;
+	}
 	video {
 		display: block;
 	}

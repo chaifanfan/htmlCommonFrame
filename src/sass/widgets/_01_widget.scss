@@ -1,13 +1,25 @@
 .widget {
 	.title {
-		font-size: $base-unit*4;
-		font-weight: 300;
-		line-height: $base-unit*5;
+		font-size: $gap*2.75;
+		font-weight: 700;
+		line-height: $base-unit*6.75;
 		margin: 0 0 $base-unit 0;
 	}
 	.description {
-        font-size: $base-unit*2.25;
+		color: $gray-darker;
+        font-size: $base-unit*2.75;
 		font-weight: 300;
+		line-height: $base-unit*4.75;
 		margin: 0 0 $gap*3 0;
+	}
+	@include media($noDesktop) {
+		.title {
+	 		font-size: $base-unit*4;
+	 		line-height: $base-unit*5;
+		}
+		.description {
+			font-size: $base-unit*2.25;
+            line-height: $base-font-size*2;
+		}
 	}
 }

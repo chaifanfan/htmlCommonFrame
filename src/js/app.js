@@ -40,14 +40,12 @@ $(function() {
     var swiper1 = new Swiper('.widget-download .swiper-container', {
       autoplay: false,
       slidesPerView: 6,
-      spaceBetween: 50,
       slidesPerColumn: 2,
-      slidesPerColumnFill: 'row',
       breakpoints: {
         1024: {
           autoplay: 5000,
           slidesPerView: 3,
-          spaceBetween: 30,
+          slidesPerColumn: 1,
           nextButton: '.swiper-button-next',
           prevButton: '.swiper-button-prev'
         }

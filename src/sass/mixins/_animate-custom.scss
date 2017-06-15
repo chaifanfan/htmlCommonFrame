@@ -43,3 +43,24 @@
   from { transform: scale(1); }
   to { transform: scale(1.25); }
 }
+
+@-webkit-keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@-moz-keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@-o-keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}

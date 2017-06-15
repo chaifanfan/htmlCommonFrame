@@ -9,10 +9,10 @@ $base-font-family: 'OpenSans', Helvetica, Arial, "PingFang SC", "Hiragino Sans G
 /* Media query breakpoints
 -------------------------------------------------------------- */
 $phone-plus:"<=480px";
-$phone:"<tablet";
-$tablet:">=tablet";
-$desktop:">=desktop";
-$noDesktop:"<desktop";
+$phone:"<=tablet";
+$tablet:">tablet";
+$desktop:">desktop";
+$noDesktop:"<=desktop";
 
 /* Color
 -------------------------------------------------------------- */

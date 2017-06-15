@@ -1,10 +1,37 @@
 .widget-download {
 	background-color: $white-dark !important;
 	.swiper-container{
-		margin-bottom: $gap*4;
+		margin-bottom: $gap*2;
+		.swiper-slide {
+			margin: $gap*2 0 $gap*3;
+		}
+		.swiper-button-prev, .swiper-button-next {
+			background: transparent;
+			border-radius: 50%;
+			color: $gray-darkest;
+			height: $base-unit*7;
+			margin-top: -$gap*3;
+			transition: all 1s;
+			width: $base-unit*7;
+			.icon {
+				display: block;
+				height: $base-unit*3.5;
+				margin: $base-unit*1.75;
+				width: $base-unit*3.5;
+			}
+		}
+		.swiper-button-prev {
+			left: -$base-unit*2.5;
+		}
+		.swiper-button-next {
+			right: -$base-unit*2.5;
+			.icon {
+				transform: rotate(180deg);
+			}
+		}
 	}
 	.feature-icon {
-		color: $orange-dark;
+		color: $gray-darker;
 		display: block;
 		.icon {
 			display: block;
@@ -12,16 +39,43 @@
 			margin: 0 auto;
 			width: $base-unit*7;
 		}
+		.icon-fast {
+			fill:none;
+			stroke-linecap:round;
+			stroke-linejoin:round;
+			stroke-width: 1px;
+		}
+						.line1 {
+			stroke-dasharray: 0;
+			stroke-dashoffset: 0;
+		}
+		.line2 {
+			stroke-dasharray: 0;
+			stroke-dashoffset: 0;
+		}
+	}
+	.swiper-slide:hover .icon {
+				.line1 {
+			stroke-dasharray: 126.167px;
+			stroke-dashoffset: 126.167px;
+		}
+		.line2 {
+			stroke-dasharray: 99.097px;
+			stroke-dashoffset: 99.097px;
+		}
+		.line1,.line2 {
+			animation: dash 2s linear .4s forwards;
+		}
 	}
 	.feature-title {
-		font-size: $base-font-size/.875;
+		font-size: $base-unit*2;
 		font-weight: 300;
 		line-height: $base-unit*3;
 		margin: $gap 0 0 0;
 	}
 	.btn {
 		color: $gray-darkest;
-		font-size: $base-unit*2;
+		font-size: $base-unit*2.25;
 		font-weight: 600;
 		margin-bottom: $gap*2;
 		&:hover {
@@ -31,30 +85,5 @@
 	}
 	&:after {
 		display: none;
-	}
-	.swiper-button-prev, .swiper-button-next {
-		background: transparent;
-		border-radius: 50%;
-		color: $gray-darkest;
-		height: $base-unit*7;
-		margin-top: -$base-unit*3.5;
-		transition: all 1s;
-		width: $base-unit*7;
-		.icon {
-			display: block;
-			height: $base-unit*3.5;
-			margin: $base-unit*1.75;
-			width: $base-unit*3.5;
-		}
-	}
-	.swiper-wrapper {
-		.swiper-slide {
-			width: 16.6667%;
-		}
-	}
-	.swiper-button-next {
-		.icon {
-			transform: rotate(180deg);
-		}
 	}
 }

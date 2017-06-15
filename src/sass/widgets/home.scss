@@ -35,6 +35,9 @@
         font-weight: 300;
         line-height: $base-unit*4;
         margin: $base-unit*5 0;
+        @include media($phone) {
+            line-height: $base-font-size*2;
+        }
     }
     .swiper-container {
         padding: $base-unit*2 0 $gap*6;
@@ -63,6 +66,7 @@
         background-color: $white-lightest;
         background-color: $dark-light;
         border-radius: $base-unit;
+        box-shadow: 0 0 $base-unit $dark;
         box-sizing: border-box;
         font-size: $base-font-size/.875;
         max-width: $rem-unit*4.08;
