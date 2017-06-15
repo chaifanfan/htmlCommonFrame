@@ -6,3 +6,9 @@
   stroke-width: 0;
   width: $base-unit*2;
 }
+.icon-stroke {
+    fill:none;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    stroke-width: 1px;
+}

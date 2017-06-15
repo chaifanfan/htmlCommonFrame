@@ -37,35 +37,13 @@
 			display: block;
 			height: $base-unit*7;
 			margin: 0 auto;
+			/* transform: translateY(0);*/
+			/* transition: all .4s;*/
 			width: $base-unit*7;
-		}
-		.icon-fast {
-			fill:none;
-			stroke-linecap:round;
-			stroke-linejoin:round;
-			stroke-width: 1px;
-		}
-						.line1 {
-			stroke-dasharray: 0;
-			stroke-dashoffset: 0;
-		}
-		.line2 {
-			stroke-dasharray: 0;
-			stroke-dashoffset: 0;
 		}
 	}
 	.swiper-slide:hover .icon {
-				.line1 {
-			stroke-dasharray: 126.167px;
-			stroke-dashoffset: 126.167px;
-		}
-		.line2 {
-			stroke-dasharray: 99.097px;
-			stroke-dashoffset: 99.097px;
-		}
-		.line1,.line2 {
-			animation: dash 2s linear .4s forwards;
-		}
+		/* transform: translateY(-20%);*/
 	}
 	.feature-title {
 		font-size: $base-unit*2;

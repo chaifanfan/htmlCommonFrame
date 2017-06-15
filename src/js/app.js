@@ -61,5 +61,11 @@ $(function() {
       loop: true
     });
   }());
-  
+  // Svg Stroke
+  new Vivus('fast', {
+    type: 'oneByOne'
+  });
+  new Vivus('multilingual', {
+    type: 'oneByOne'
+  });
 })
