@@ -68,4 +68,28 @@ $(function() {
   new Vivus('multilingual', {
     type: 'oneByOne'
   });
+  new Vivus('reliability', {
+    type: 'oneByOne'
+  });
+  new Vivus('datasource', {
+    type: 'oneByOne'
+  });
+  new Vivus('share', {
+    type: 'oneByOne'
+  });
+  new Vivus('diagnosis', {
+    type: 'oneByOne'
+  });
+  new Vivus('click', {
+    type: 'oneByOne'
+  });
+  new Vivus('platform', {
+    type: 'oneByOne'
+  });
+  new Vivus('domain', {
+    type: 'oneByOne'
+  });
+  new Vivus('email', {
+    type: 'oneByOne'
+  });
 })
