@@ -64,6 +64,7 @@ $(function() {
   // Svg Stroke
   new Vivus('fast', {
     type: 'oneByOne'
+    // file: 'images/fast.svg'
   });
   new Vivus('multilingual', {
     type: 'oneByOne'
@@ -90,6 +91,12 @@ $(function() {
     type: 'oneByOne'
   });
   new Vivus('email', {
+    type: 'oneByOne'
+  });
+  new Vivus('publish', {
+    type: 'oneByOne'
+  });
+  new Vivus('develop', {
     type: 'oneByOne'
   });
 })
