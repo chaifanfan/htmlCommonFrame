@@ -64,3 +64,19 @@
     stroke-dashoffset: 0;
   }
 }
+@-webkit-keyframes scroll {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-100%); }
+}
+@-moz-keyframes scroll {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-100%); }
+}
+@-o-keyframes scroll {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-100%); }
+}
+@keyframes scroll {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-100%); }
+}
