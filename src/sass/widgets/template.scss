@@ -1,19 +1,39 @@
 .widget-template {
-	background-color: $white !important;
+	/* background-color: $white-dark;*/
+	.global-width {
+		color: $white;
+		position: relative;
+		z-index: 1;
+	}
+	.description {
+		color: $white;
+	}
 	.list-wrapper {
+		background-color: $white;
 		border: .01rem solid $gray-lighter;
+		border-bottom-color: #dcdce0;
 		box-shadow: 0 .01rem .01rem -.01rem $dark-lighter;
 		display: block;
 		margin-bottom: $gap*2;
 		overflow: hidden;
-		padding-top: 60%;
+		padding-top: 100%;
 		position: relative;
 		img {
 			display: block;
+			height: 100%;
 			max-width: 100%;
 			position: absolute;
 			top: 0;
 			width: 100%;
 		}
+	}
+	&:after {
+		background-color: $dark;
+		content: '';
+		height: 100%;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
 	}
 }

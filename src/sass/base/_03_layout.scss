@@ -157,26 +157,26 @@
 ------------------------------------------------------------------------------------------------*/
 
 .main {
-	background: url('images/bg.jpg') no-repeat center;
-	background-attachment: fixed;
-	background-size: cover;
+	/* background: url('images/b3.jpg') no-repeat center;*/
+	/* background-attachment: fixed;*/
+	/* background-size: cover;*/
+	.bg-wrapper {
+		position: fixed;
+		top: 0;
+		z-index: -1;
+	}
+	.bg {
+		width: 100%;
+	}
+	.bg:last-child {
+		margin-top: -6px;
+	}
+	.scroll-bg {
+		animation: scroll 256s linear infinite;
+	}
 	.widget {
 		padding: 0 $gap;
-	}
-	.widget:nth-child(2n) {
-		background-color: $white-dark;
-	}
-	.widget:nth-child(2n+1) {
 		position: relative;
-		/* &:after {*/
-		/* 	background-color: $dark;*/
-		/* 	content: '';*/
-		/* 	height: 100%;*/
-		/* 	left: 0;*/
-		/* 	position: absolute;*/
-		/* 	top: 0;*/
-		/* 	width: 100%;*/
-		/* }*/
 	}
 	.global-width {
 		padding: $base-unit*12.5 0;
@@ -184,9 +184,10 @@
 			padding: $base-unit*8 0;
 		}
 	}
-	@include media($phone-plus) {
-		background-attachment: scroll;
-	}
+	/* @include media($phone-plus) {*/
+	/* 	background-attachment: scroll;*/
+	/* 	background-size: contain;*/
+	/* }*/
 }
 
 /* Footer
